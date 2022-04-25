@@ -1,10 +1,13 @@
 import React from 'react'
 import CV from '../../assets/cv.pdf'
-export const CTA = () => {
+
+const CTA = () => {
   return (
     <div className='cta'>
-        <a href= {CV} shop car>shop car CV</a>
-        <a href="">basket</a>
+        <a href= {CV} download className='btn'>shop car CV</a>
+        <a href="#contact"  className='btn btn-primary' >basket</a>
     </div>
   )
 }
+
+export default CTA
