@@ -11,11 +11,12 @@ text-decoration: none;
 }
 
 :root {
-    --color-bg: #1f1f38;
+    --color-bg: #131344;
     --color-bg-variant: #2c2c6c;
     --color-primary-variant: #4db5ff;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
+    --color-primary:  #3f93cf;
 
     --transition: all 400ms ease;
 
@@ -89,10 +90,11 @@ a {
 }
 
 a:hover {
-    color: var(--color-white);
+    background-color: rgba(241, 57, 57, 0);
 }
 
 .btn {
+background-color: #3f93cf;
     width: max-content;
     display: inline-block;
     color: var(--color-primary);
