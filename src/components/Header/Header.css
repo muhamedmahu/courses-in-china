@@ -1,6 +1,6 @@
 header {
     height: 100vh;
-    padding-top: 1  rem;
+    padding-bottom: 0%;
     overflow: hidden;
 }
 
@@ -23,8 +23,8 @@ header {
      align-items: center;
      gap: 0.8rem;
      position: absolute;
-     left: 0;
-     bottom: 3rem;
+     left: 18rem;
+     top: 80%;
  }
 
  .header__socials::after {
@@ -36,14 +36,14 @@ header {
 
  .me {
 background: linear-gradient(var(--color-primary), transparent);
-width: 22rem;
+width: 25rem;
 height: 30rem;
 position: absolute;
-left: calc(50% - 11rem);
+left: calc(48% - 11rem);
 margin-top: 2rem;   
 border-radius: 12rem 12rem 0 0;
 overflow: hidden;
-padding: 5rem 1.5rem 1.5rem 1.5rem;
+padding: 5px 40px 50px 40px;
 
 
  }
@@ -57,12 +57,13 @@ padding: 5rem 1.5rem 1.5rem 1.5rem;
      font-size: 0.9rem;
  }
 
- @media screen and (min-width: 600px) {
+ @media screen and (max-width: 600px) {
      header {
          height: 68vh;
      }
      .me {
-         justify-content: center;
+         width: 70%;
+         left: 5rem;
      }
  }
 
