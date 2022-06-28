@@ -62,15 +62,21 @@ margin-left: 2rem;
      font-size: 0.9rem;
  }
 
- @media screen and (max-width: 600px) {
-     header {
-         height: 68vh;
-     }
+ @media screen and (max-width: 1024px) {
      .me {
-         width: 70%;
-         left: 2.9rem;
+         left: -6%;
      }
  }
 
+ @media screen and (max-width: 600px) {
+     header {
+         height: 100vh;
+     }
+
+     .header__socials,
+     .scrool__down {
+         display: none;
+     }
+ }
 
 
