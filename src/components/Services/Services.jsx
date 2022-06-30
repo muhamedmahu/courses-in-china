@@ -33,31 +33,6 @@ function Services() {
               <BiCheck className='services__list-icon' />
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
             </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
           </ul>
         </article>
 
@@ -155,15 +130,7 @@ function Services() {
               <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
             </li>
 
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
-
-            <li>
-              <BiCheck className='services__list-icon' />
-              <p>Lorem ipsum, dolor sit amet consectetur adipisicing.</p>
-            </li>
+          
           </ul>
         </article>
       </div>
