@@ -7,8 +7,8 @@ function Services() {
       <h5>What I offer</h5>
       <h2>Services</h2>
 
-      <div className='container services_container'>
-        <article className='services'>
+      <div className='container services__container'>
+        <article className='service'>
           <div className='services__head'>
             <h3>UI/UX Design</h3>
           </div>
@@ -61,7 +61,7 @@ function Services() {
           </ul>
         </article>
 
-        <article className='services'>
+        <article className='service'>
           <div className='services__head'>
             <h3>Content creation </h3>
           </div>
@@ -114,7 +114,7 @@ function Services() {
           </ul>
         </article>
 
-        <article className='services'>
+        <article className='service'>
           <div className='services__head'>
             <h3>Web development</h3>
           </div>
