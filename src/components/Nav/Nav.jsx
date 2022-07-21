@@ -11,9 +11,8 @@ export const Nav = () => {
     <nav>
       <a href="#"><AiOutlineHome/></a>
       <a href="#about"><AiOutlineUser/></a>
-      <a href="#experience"><BiBook/></a>
-      <a href="#services"><GrServices/></a>
-      <a href="#contact"><GrContact/></a>
+      <a href="#expirience"><BiBook/></a>
+     
      
     </nav>
   )
