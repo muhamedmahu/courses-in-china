@@ -20,7 +20,7 @@ text-decoration: none;
 
     --transition: all 400ms ease;
 
-    --container-width-lg: 75%;
+    --container-width-sm: 100%;
     --container-width-md: 86%;
     --container-width-ms: 90%;
     
@@ -124,7 +124,7 @@ img {
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 1024px) {
     .container {
         width: var(--container-width-sm);
     }
@@ -134,7 +134,8 @@ img {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 600px) {
+   
     .container {
         width: var(--container-width-sm);
     }

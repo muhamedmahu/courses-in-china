@@ -12,7 +12,7 @@ const About = () => {
       <div className="container about__container">
         <div className="about__me">
           <div className="about__me-image">
-            <img src={ME} alt="me"/>
+            <img src={ME} alt="me" />
           </div>
         </div>
 
@@ -33,7 +33,11 @@ const About = () => {
             <article className="about__card">
               <BsPen className="about__icon" />
               <h5>расписание</h5>
-              <small>понедельник, среда, пятница</small>
+              <small className="text">понедельник</small>
+              <hr />
+              <small className="text">среда </small>
+              <hr />
+              <small className="text">пятница</small>
             </article>
           </div>
           <p>
@@ -45,13 +49,11 @@ const About = () => {
             превзошел Walmart как крупнейшего ритейлера. Alibaba совершает набег
             на американский и европейский рынок электронной коммерции с
             AliExpress, который уже является шестым по величине сайтом
-            онлайн-покупок в США. И специально для каракола был разработан курс 
+            онлайн-покупок в США. И специально для каракола был разработан курс
             в котором мы раскажем как покупать и продать товар
           </p>
 
-          <p>
-
-          </p>
+          <p></p>
 
           <a href="https://t.me/+9V1rMTga37w4YjYy" className="btn btn-primary">
             записаться на курс
