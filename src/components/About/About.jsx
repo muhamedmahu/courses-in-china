@@ -7,7 +7,7 @@ import { BsPen } from "react-icons/bs";
 const About = () => {
   return (
     <section id="about">
-      <h2>о курсах</h2>
+      <h2>O курсах</h2>
 
       <div className="container about__container">
         <div className="about__me">

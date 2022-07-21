@@ -75,6 +75,11 @@ bottom: -5rem;
      .scrool__down {
          display: none;
      }
+    
+     .me {
+        left: -1.70rem;
+        bottom: 15rem;
+     }
  }
 
 

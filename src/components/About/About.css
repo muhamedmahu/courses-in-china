@@ -103,6 +103,9 @@ gap: 0;
         margin: 0 auto 3rem;
     }
 
+    .about__container {
+        bottom: 15rem;
+    }
     
 
     .about__content {
@@ -113,4 +116,5 @@ gap: 0;
     .about__content p {
         margin: 1.5rem 0;
     }
+  
 }

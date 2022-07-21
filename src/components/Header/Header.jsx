@@ -7,7 +7,7 @@ export const Header = () => {
   return (
    <header>
       <div className="container header__container"> 
-<h3>впервые в городе каракол</h3>
+<h3>впервые в городе Каракол</h3>
 <h1>Экспресс Бизнес курсы с Китаем</h1>
    
     <div className='me'>
